@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Element>
+    <Script>
+        <Name>mpp\Lab3.py</Name>
+        <Title>Beam</Title>
+        <Version>1.0</Version>
+    </Script>
+    <Page>
+    <Name>Балка</Name>
+    <Text>Балка</Text>
+        <Parameter>
+            <Name>bl</Name>
+            <Text>Довжина</Text>
+            <Value>4000.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>lws</Name>
+            <Text>Ширина(низ)</Text>
+            <Value>480.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>lwsc</Name>
+            <Text>Зріз 1(низ)</Text>
+            <Value>160.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>lhsc</Name>
+            <Text>Зріз 2(низ)</Text>
+            <Value>160.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>lhs</Name>
+            <Text>Висота(низ)</Text>
+            <Value>320.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>mh</Name>
+            <Text>Висота(центр)</Text>
+            <Value>420.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>mew</Name>
+            <Text>Товщина по краях(центр)</Text>
+            <Value>300.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>lt</Name>
+            <Text>Перехід</Text>
+            <Value>300.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>mw</Name>
+            <Text>Центральна товщина</Text>
+            <Value>50.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>tws</Name>
+            <Text>Ширина(верх)</Text>
+            <Value>600.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>ths</Name>
+            <Text>Висота(верх)</Text>
+            <Value>350.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>twsc</Name>
+            <Text>Зрізу(верх)</Text>
+            <Value>220.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>hp</Name>
+            <Text>Висота плитки</Text>
+            <Value>40.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>i</Name>
+            <Text>Відступ плитки від країв</Text>
+            <Value>60.</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+    </Page>
+</Element>
